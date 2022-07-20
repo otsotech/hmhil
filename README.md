@@ -14,3 +14,5 @@ crypto_amount: Total crypto for example: "crypto: 100.0"
 investment: Total investment for example: "investment: 100.0"
 
 4. **After all information has been set, run the run.bat file. It will refresh every second.**
+
+Feel free to complain about the code being bad.
