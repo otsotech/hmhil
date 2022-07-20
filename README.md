@@ -2,6 +2,7 @@
 1. Import all the files inside the same folder.
 2. Open "config.ini" file. (Any text editor will do.)
 3. Add your information as follows:
+
 crypto: Crypto for example: "crypto: BTC, ETH, etc."
 
 currency: Currency for example: "currency: USD, EUR, etc."
