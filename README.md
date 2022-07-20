@@ -1,3 +1,5 @@
+Simple python console application that does simple calculations to display how much you have lost in crypto.
+
 # Getting Started
 1. **Import all the files inside the same folder.**
 2. **Open "config.ini" file. (Any text editor will do.)**
