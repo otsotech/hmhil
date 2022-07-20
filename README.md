@@ -1,7 +1,7 @@
-#Getting Started
-1. Import all the files inside the same folder.
-2. Open "config.ini" file. (Any text editor will do.)
-3. Add your information as follows:
+# Getting Started
+1. **Import all the files inside the same folder.**
+2. **Open "config.ini" file. (Any text editor will do.)**
+3. **Add your information as follows:**
 
 crypto: Crypto for example: "crypto: BTC, ETH, etc."
 
@@ -11,4 +11,4 @@ crypto_amount: Total crypto for example: "crypto: 100.0"
 
 investment: Total investment for example: "investment: 100.0"
 
-4. After all information has been set, run the run.bat file. It will refresh every second.
+4. **After all information has been set, run the run.bat file. It will refresh every second.**
