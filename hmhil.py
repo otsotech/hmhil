@@ -70,8 +70,8 @@ while (0==0):
         print('    ' + crypto + ' value has decreased: ' + str(colored.red(round(100*(sincevalue/(cryptovalue))-100,2))) + ' %')
     else:
         print('Since program was opened:')
-        print('    ' + crypto + ' value has stayed the same.')
-        print('    ' + crypto + ' value has stayed the same.')
         print('    ' + crypto + ' value was: ' + str(sincevalue) + ' ' + crypto)
-    
+        print('    ' + crypto + ' value has stayed the same.')
+        print('    ' + crypto + ' value has stayed the same.')
+        
     time.sleep(1) # wait a second before refresh
