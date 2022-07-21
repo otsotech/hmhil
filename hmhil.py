@@ -22,7 +22,7 @@ crypto=str(crypto)
 currency=str(currency)
 cryptoamount=float(cryptoamount)
 investment=float(investment)
-sincevalue=float(float(f"{data['price']}")*cryptoamount)
+sincevalue=float(float(f"{data['price']}"))
 system("title " + "How Much Have I Lost")
 
  # loop
@@ -58,13 +58,20 @@ while (0==0):
     print(line)
 
     # profit increase/decrease percentage 
-    if(sincevalue<cryptovalue*cryptoamount):
-        print('Since program was opened Profit has increased by ' + str(colored.green(round(100-(100*sincevalue/(cryptovalue*cryptoamount)),2))) + '%.')
-    elif(sincevalue>cryptovalue*cryptoamount):
-        print('Since program was opened Profit has decreased by ' + str(colored.red(round(100*(sincevalue/(cryptovalue*cryptoamount))-100,2))) + '%.')
+    if(sincevalue<cryptovalue):
+        print('Since program was opened:')
+        print('    ' + crypto + ' value was: ' + str(sincevalue) + ' ' + crypto)
+        print('    ' + crypto + ' value has increased: ' + str(colored.green(round(cryptovalue-sincevalue,2))) + ' ' + currency)
+        print('    ' + crypto + ' value has increased: ' + str(colored.green(round(100-(100*sincevalue/(cryptovalue)),2))) + ' %')
+    elif(sincevalue>cryptovalue):
+        print('Since program was opened:')
+        print('    ' + crypto + ' value was: ' + str(sincevalue) + ' ' + crypto)
+        print('    ' + crypto + ' value has decreased: ' + str(colored.red(round(sincevalue-cryptovalue,2))) + ' ' + currency)
+        print('    ' + crypto + ' value has decreased: ' + str(colored.red(round(100*(sincevalue/(cryptovalue))-100,2))) + ' %')
     else:
-        print('Since program was opened Profit has stayed the same.')
-
-    print(line)
+        print('Since program was opened:')
+        print('    ' + crypto + ' value has stayed the same.')
+        print('    ' + crypto + ' value has stayed the same.')
+        print('    ' + crypto + ' value was: ' + str(sincevalue) + ' ' + crypto)
     
     time.sleep(1) # wait a second before refresh
