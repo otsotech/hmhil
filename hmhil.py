@@ -26,7 +26,7 @@ sincevalue=float(float(f"{data['price']}"))
 system("title " + "How Much Have I Lost")
 
  # loop
-while (0==0):
+while True:
 
     # get crypto value
     data = requests.get(key)
