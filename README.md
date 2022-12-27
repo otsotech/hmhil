@@ -23,4 +23,7 @@ currency: 0
 crypto_amount: 0 
 
 investment: 0´´´
+
+´test´
+
 5. Run the script by entering python main.py in the command line
