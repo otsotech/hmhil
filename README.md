@@ -14,8 +14,7 @@ Shows percentage increase or decrease in value since the program was started
 1. Clone the repository
 2. Install the required libraries by running pip install -r requirements.txt in the project directory
 3. Create a file named config.ini in the project directory with the following format:
-´´
-[hmhil]
+´´´[hmhil]
 
 # Crypto
 crypto: ETH
@@ -27,6 +26,5 @@ currency: EUR
 crypto_amount: 0.25762405 
 
 # Total investment
-investment: 753.24
-´´
+investment: 753.24 ´´´
 5. Run the script by entering python main.py in the command line
