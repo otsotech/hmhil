@@ -29,4 +29,4 @@ crypto_amount: [e.g. 1.25]
 # Total investment
 investment: [e.g. 100]
 ```
-5. Run the script by entering python main.py in the command line
+5. Run the script with the run.bat file
