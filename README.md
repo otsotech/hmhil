@@ -7,9 +7,12 @@ A simple script to check the current value of a cryptocurrency and compare it to
 - Shows percentage increase or decrease in value since the program was started
 ## Requirements
 - Python 3
-- requests library
-- clint library
-- configparser library
+Run: 
+```
+pip -r requirements.txt
+```
+
+to get all the required requirements.
 ## Usage
 1. Clone the repository
 2. Install the required libraries by running pip install -r requirements.txt in the project directory
