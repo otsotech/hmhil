@@ -14,7 +14,7 @@ Shows percentage increase or decrease in value since the program was started
 1. Clone the repository
 2. Install the required libraries by running pip install -r requirements.txt in the project directory
 3. Create a file named config.ini in the project directory with the following format:
-´´´[hmhil]
+```[hmhil]
 
 crypto: 0
 
@@ -22,8 +22,6 @@ currency: 0
 
 crypto_amount: 0 
 
-investment: 0´´´
-
-´test´
+investment: 0```
 
 5. Run the script by entering python main.py in the command line
