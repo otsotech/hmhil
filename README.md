@@ -2,9 +2,9 @@
 A simple script to check the current value of a cryptocurrency and compare it to the amount invested, displaying the profit or loss.
 
 ## Features
-Shows current value of cryptocurrency
-Shows profit or loss compared to investment
-Shows percentage increase or decrease in value since the program was started
+- Shows current value of cryptocurrency
+- Shows profit or loss compared to investment
+- Shows percentage increase or decrease in value since the program was started
 ## Requirements
 - Python 3
 - requests library
