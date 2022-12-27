@@ -13,7 +13,7 @@ Shows percentage increase or decrease in value since the program was started
 ## Usage
 1. Clone the repository
 2. Install the required libraries by running pip install -r requirements.txt in the project directory
-3. Create a file named config.ini in the project directory with the following format:
+3. Edit config.ini in the project directory with the following format:
 ```
 [hmhil]
 
