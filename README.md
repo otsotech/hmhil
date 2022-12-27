@@ -16,15 +16,11 @@ Shows percentage increase or decrease in value since the program was started
 3. Create a file named config.ini in the project directory with the following format:
 ´´´[hmhil]
 
-# Crypto
-crypto: ETH
+crypto: 0
 
-# Currency
-currency: EUR
+currency: 0
 
-# Crypto amount
-crypto_amount: 0.25762405 
+crypto_amount: 0 
 
-# Total investment
-investment: 753.24 ´´´
+investment: 0´´´
 5. Run the script by entering python main.py in the command line
