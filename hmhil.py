@@ -14,24 +14,23 @@ currency = config.get("hmhil", "currency")
 cryptoamount = config.get("hmhil", "crypto_amount")
 investment = config.get("hmhil", "investment")
 clear = lambda: os.system('cls')
-line=(colored.yellow('\n' + '─' * 60 + '\n'))
-key='https://api.binance.com/api/v3/ticker/price?symbol='+crypto+currency # get data from Binance
+line = (colored.yellow('\n' + '─' * 60 + '\n'))
+key = 'https://api.binance.com/api/v3/ticker/price?symbol=' + crypto + currency # get data from Binance
 data = requests.get(key)
 data = data.json()
-crypto=str(crypto)
-currency=str(currency)
-cryptoamount=float(cryptoamount)
-investment=float(investment)
-sincevalue=float(float(f"{data['price']}"))
+crypto = str(crypto)
+currency = str(currency)
+cryptoamount = float(cryptoamount)
+investment = float(investment)
+sincevalue = float(float(f"{data['price']}"))
 system("title " + "How Much Have I Lost")
 
- # loop
+# loop
 while True:
-
     # get crypto value
     data = requests.get(key)
     data = data.json()
-    cryptovalue=float(f"{data['price']}")
+    cryptovalue = float(f"{data['price']}")
 
     clear() # clear / refresh
 
@@ -60,7 +59,7 @@ while True:
     # profit increase/decrease percentage 
     if(sincevalue<cryptovalue):
         print('Since program was opened:')
-        print('    ' + crypto + ' value was: ' + str(sincevalue) + ' ' + crypto)
+        print('    ' + crypto + ' value was: ' + str(sincevalue) + ' ' + currency)
         print('    ' + crypto + ' value has increased: ' + str(colored.green(round(cryptovalue-sincevalue,2))) + ' ' + currency)
         print('    ' + crypto + ' value has increased: ' + str(colored.green(round(100-(100*sincevalue/(cryptovalue)),2))) + ' %')
     elif(sincevalue>cryptovalue):
